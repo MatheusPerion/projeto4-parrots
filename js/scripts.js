@@ -57,10 +57,10 @@ function montarBaralho() {
     document.getElementById("baralho").innerHTML = "";
     for (let i = 0; i < qtdeCartas; i++) {
         document.getElementById("baralho").innerHTML += 
-        `<li class="carta ${cartasSelecionadas[i]}" data-identifier="card">
-            <div class="frente face" data-identifier="front-face">
+        `<li data-test="card" class="carta ${cartasSelecionadas[i]}" data-identifier="card">
+            <div data-test="face-down-image" class="frente face" data-identifier="front-face">
             </div>
-            <div class="costa face" data-identifier="back-face">
+            <div data-test="face-up-image" class="costa face" data-identifier="back-face">
             </div>
         </li>`;
     }

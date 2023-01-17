@@ -58,3 +58,95 @@ body {
   transform: rotateY(180deg);
   background-image: url(../img/front.png);
 }
+
+.carta.bobross .costa {
+  background-image: url(../gif/bobrossparrot.gif);
+}
+
+.carta.explody .costa {
+  background-image: url(../gif/explodyparrot.gif);
+}
+
+.carta.fiesta .costa {
+  background-image: url(../gif/fiestaparrot.gif);
+}
+
+.carta.metal .costa {
+  background-image: url(../gif/metalparrot.gif);
+}
+
+.carta.revertit .costa {
+  background-image: url(../gif/revertitparrot.gif);
+}
+
+.carta.triplets .costa {
+  background-image: url(../gif/tripletsparrot.gif);
+}
+
+.carta.unicorn .costa {
+  background-image: url(../gif/unicornparrot.gif);
+}
+
+.carta.virada .costa {
+  transform: rotateY(0deg);
+}
+
+.carta.virada .frente {
+  transform: rotateY(-180deg);
+}
+
+#overlayRanking {    
+  display: none;
+  justify-content: center;
+  align-items: center;
+  z-index: 3;
+  box-sizing: content-box;
+  background: rgba(255, 255, 255, 0.9);
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.ranking {
+  width: 80%;    
+  height: auto;
+  margin: 0px auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 9px;
+  background-color: #A7E9AF;
+  box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.25);
+}
+
+#tabelaRanking {
+  text-align: center;
+  font-size: 25px;
+  margin: 0 0 20px 0;
+}
+
+th, td {
+  padding: 8px;
+}
+
+@media (max-width: 614px){
+  .topo {
+      width: auto;
+  }
+
+  .titulo {
+      font-size: 36px;
+      margin: 40px auto 10px auto;
+  }
+
+  .relogio {
+      top: 5px;
+      right: 5px;
+      font-size: 20px;
+  }
+}
