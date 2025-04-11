@@ -18,8 +18,13 @@ body {
   flex-wrap: wrap;
   justify-content: center;
 
-}
+} 
 
+
+.japão{
+  background-color: white;
+  background: red;
+}
 
 .perion{
   background-color: #75B79E;
