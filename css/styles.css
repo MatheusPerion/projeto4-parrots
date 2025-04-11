@@ -5,13 +5,18 @@
   flex-wrap: wrap;
   justify-content: center;
 
-}
+} 
 
 .China{
   background: red;
   background-color: yellow;
 }
 
+
+.japão{
+  background-color: white;
+  background: red;
+}
 
 .perion{
   background-color: #75B79E;
