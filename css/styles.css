@@ -20,6 +20,11 @@ body {
 
 }
 
+
+.perion{
+  background-color: #75B79E;
+  display: flex;
+}
 .carta {
   position: relative;
   width: 117px;
