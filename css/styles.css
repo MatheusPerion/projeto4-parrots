@@ -1,16 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
-
-body {
-  font-family: 'Press Start 2P';
-  font-style: normal;
-  font-weight: bold;
-  background: #EEF9BF;
-  color: #75B79E;
-
-
-}
-
-
 
 #baralho {
   display: flex;
@@ -18,6 +5,11 @@ body {
   flex-wrap: wrap;
   justify-content: center;
 
+}
+
+.China{
+  background: red;
+  background-color: yellow;
 }
 
 
